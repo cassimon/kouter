@@ -3,8 +3,8 @@ import pandas as pd
 from io import BytesIO
 import os;
 import numpy as np;
-from openpyxl.utils import get_column_letter
-from openpyxl.styles import Alignment
+#from openpyxl.utils import get_column_letter
+#from openpyxl.styles import Alignment
 
 abs_path = os.path.dirname(os.path.abspath(__file__));
 
