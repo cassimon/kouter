@@ -526,8 +526,9 @@ def initApp():
     "Reference: " + df_to_show.loc[df_to_show.index[0], "name"]
     )
 
+    df_to_show["dist"] = df_to_show["dist"].astype(object)
     df_to_show.loc[df_to_show.index[0], "dist"] = (
-    "Reference (Dist 0)" 
+        "Reference (Dist 0)"
     )
 
     # Define the display names for the table header
