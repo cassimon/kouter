@@ -90,7 +90,11 @@ def initApp():
         #print(df.keys())
         return df
 
-    st.title("KouTer Green Solvents V1.0")
+    col_logo, col_title = st.columns([1, 12])
+    with col_logo:
+        st.image(abs_path+'/KouTer_Logo_cropped.svg', width=80)
+    with col_title:
+        st.title("KouTer Green Solvents V1.0")
     results = load_data();
     ########################Fields;
 
